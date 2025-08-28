@@ -1,0 +1,17 @@
+⚠️ No file uploaded. Using random binary data.
+Data shape: (100, 3), Labels shape: (100,)
+Number of training samples: 70
+Number of testing samples: 30
+Data shape: (70, 3)
+Train accuracy: 0.6142857142857143
+Test accuracy: 0.6
+Test predictions: [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0]
+Test true labels: [1 1 1 1 0 0 0 1 0 0 0 0 1 0 1 0 0 1 0 1 0 1 0 1 0 0 1 1 0 0]
+              precision    recall  f1-score   support
+
+           0       0.60      0.88      0.71        17
+           1       0.60      0.23      0.33        13
+
+    accuracy                           0.60        30
+   macro avg       0.60      0.56      0.52        30
+weighted avg       0.60      0.60      0.55        30
